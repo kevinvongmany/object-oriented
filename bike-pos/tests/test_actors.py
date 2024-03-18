@@ -2,7 +2,7 @@ import unittest
 from bikeshop.actors import Staff, Customer, PrivilegeException
 
 
-class TestBikeShop(unittest.TestCase):
+class TestBikeShopActors(unittest.TestCase):
     def test_if_staff_is_staff(self):
         staff = Staff(1, "John", 30, 52000, "Manager")
         assert isinstance(staff, Staff)
